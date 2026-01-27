@@ -30,7 +30,8 @@ In this work, the HepMC file was used as a data source to construct a supervised
   This step ensures that SR operates on a physically valid data set and allows its results to be interpreted as a genuine rediscovery or extension of physical laws.
 3. Result:
    When mass and Cartesian components are used as input variables, symbolic regression unambiguously identifies the exact relativistic relationship linking the particle's energy, momentum, and mass.
-   
+
+  #### See SymbolicRegression_FALL_thesis.ipynb
 #  Symbolic Regression vs. Classical Machine Learning
 
  ## Comparative study of interpolation and extrapolation on synthetic and real data
