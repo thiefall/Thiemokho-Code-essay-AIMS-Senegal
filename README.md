@@ -1,5 +1,23 @@
-# Thiemokho-Code-essay-AIMS-Senegal
+Thiémokho Fall
+# 📧 thiemokho.fall@aims-senegal.org
+## 🎓 Master of Science in Mathematical Sciences
+## African Institute for Mathematical Sciences (AIMS) — Senegal
+------------------------------------------
 
+Supervised by: Dr. Yaé Olatoundji Gaba
+AI Research and Innovation Nexus for Africa (AIRINA) · AIRINA Labs by AI.Technipreneurs · Cotonou, Bénin
+------------------------------------------------------------
+# 📋 Abstract
+In the current age of AI, the growing reliance on complex black-box models has created a trade-
+off between predictive performance and interpretability. Symbolic regression offers a compelling
+alternative by discovering analytical expressions that explain data-driven relationships. This essay
+explores the mathematical foundations and algorithmic techniques behind symbolic regression,
+surveys its applications in scientific and industrial domains, and compares its strengths and limi-
+tations with those of classical machine learning models. Through practical examples and a review
+of current tools, we argue that symbolic regression plays a key role in building transparent and
+trustworthy AI systems.
+
+🎓 Master of Science in Mathematical Sciences at AIMS Senegal
 # Symbolic regression  on HepMC data
 🔍 Project overview
 
