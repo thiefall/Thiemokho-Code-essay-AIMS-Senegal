@@ -282,18 +282,13 @@ pysr>=0.11.0  # Optional (Julia backend)
 
 ---
 
-## 💻 Usage
 
 ### 📁 Available Notebooks
 
 | Notebook | Description |
 |----------|-------------|
-| `01_synthetic_experiments.ipynb` | Experiments on synthetic functions |
-| `02_diabetes_analysis.ipynb` | Diabetes dataset (UCI) |
-| `03_finance_returns.ipynb` | Financial returns analysis |
-| `04_physics_rediscovery.ipynb` | Rediscovery of E = √(p²+m²) with CERN data |
-| `05_comparative_study.ipynb` | SR vs classical ML comparison |
-| `06_eql_experiments.ipynb` | Equation Learner (EQL) demonstrations |
+| `Comparaison_SR\Others.ipynb` | Experiments on synthetic functions |
+| `SymbolicRegression_Fall_thesis.ipynb` | Rediscovery of E = √(p²+m²) with CERN data |
 
 ### 🎯 Quick Example
 
@@ -344,53 +339,6 @@ expr_simplified = simplify(expr_sympy)
 print(f"\nSimplified expression:\n{expr_simplified}")
 ```
 
-
-
----
-
-## 📂 Project Structure
-
-```
-Thiemokho-Code-essay-AIMS-Senegal/
-│
-├── notebooks/                   # Jupyter notebooks for experiments
-│   ├── 01_synthetic_experiments.ipynb
-│   ├── 02_diabetes_analysis.ipynb
-│   ├── 03_finance_returns.ipynb
-│   ├── 04_physics_rediscovery.ipynb
-│   ├── 05_comparative_study.ipynb
-│   └── 06_eql_experiments.ipynb
-│
-├── data/                        # Datasets
-│   ├── synthetic/
-│   ├── diabetes.csv
-│   ├── finance/
-│   └── hepmc_particles.csv
-│
-├── src/                         # Reusable source code
-│   ├── __init__.py
-│   ├── symbolic_regression.py   # SR wrappers and utilities
-│   ├── eql_model.py            # Equation Learner implementation
-│   ├── preprocessing.py         # Data preparation
-│   ├── evaluation.py            # Metrics and visualizations
-│   └── physics_utils.py         # Physics-specific functions
-│
-├── results/                     # Results and figures
-│   ├── figures/
-│   ├── models/
-│   └── reports/
-│
-├── tests/                       # Unit tests
-│   ├── test_symbolic_regression.py
-│   └── test_eql.py
-│
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file
-├── LICENSE                      # MIT License
-└── setup.py                     # Package installation
-```
-
----
 
 ## 🔍 Applications
 
@@ -470,9 +418,9 @@ If you use this code or results in your research, please cite:
 
 **Thiémokho Fall**  
 🎓 Master Student @ AIMS Senegal  
-📧 Email: [your.email@aims-senegal.org](mailto:thiemokho.fall@aims-senegal.org)  
+📧 Email: [thiemokho.fall@aims-senegal.org](mailto:thiemokho.fall@aims-senegal.org)  
 🔗 GitHub: [@thiefall](https://github.com/thiefall)  
-🔗 LinkedIn: [Your Profile](www.linkedin.com/in/thiemokho-fall-6908ab1b9)
+🔗 LinkedIn: [www.linkedin.com/in/thiemokho-fall-6908ab1b9](www.linkedin.com/in/thiemokho-fall-6908ab1b9)
 
 ---
 
