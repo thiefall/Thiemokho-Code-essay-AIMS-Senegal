@@ -15,8 +15,6 @@
 - [🔬 Methodology](#-methodology)
 - [📊 Key Results](#-key-results)
 - [🚀 Installation](#-installation)
-- [💻 Usage](#-usage)
-- [📂 Project Structure](#-project-structure)
 - [🔍 Applications](#-applications)
 - [📈 Comparisons](#-comparisons)
 - [📝 Citation](#-citation)
