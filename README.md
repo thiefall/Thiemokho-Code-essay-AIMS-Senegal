@@ -344,31 +344,7 @@ expr_simplified = simplify(expr_sympy)
 print(f"\nSimplified expression:\n{expr_simplified}")
 ```
 
-### 🧠 EQL Example
 
-```python
-from eql import EQL
-import numpy as np
-
-# Generate data
-X = np.random.uniform(-3, 3, (500, 2))
-y = 2*X[:, 0]**2 + np.sin(X[:, 1])
-
-# Create and train EQL model
-model = EQL(
-    num_layers=3,
-    hidden_units=64,
-    operator_set=['mul', 'add', 'sin'],
-    l1_reg=0.001,
-    learning_rate=0.01
-)
-
-model.fit(X, y, epochs=200, verbose=1)
-
-# Extract symbolic equation
-equation = model.extract_equation()
-print(f"Discovered equation: {equation}")
-```
 
 ---
 
@@ -494,9 +470,9 @@ If you use this code or results in your research, please cite:
 
 **Thiémokho Fall**  
 🎓 Master Student @ AIMS Senegal  
-📧 Email: [your.email@aims-senegal.org](mailto:your.email@aims-senegal.org)  
+📧 Email: [your.email@aims-senegal.org](mailto:thiemokho.fall@aims-senegal.org)  
 🔗 GitHub: [@thiefall](https://github.com/thiefall)  
-🔗 LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+🔗 LinkedIn: [Your Profile](www.linkedin.com/in/thiemokho-fall-6908ab1b9)
 
 ---
 
@@ -557,7 +533,10 @@ Questions? Suggestions? Feel free to:
 - 💬 Start a [Discussion](https://github.com/thiefall/Thiemokho-Code-essay-AIMS-Senegal/discussions)
 
 ---
+📝 Declaration
 
+I, the undersigned, hereby declare that the work contained in this essay is my original work, and that any work done by others or by myself previously has been acknowledged and referenced accordingly
+                                                                Thiemokho Fall
 <div align="center">
 
 ### ⭐ If this project was helpful, please give it a star!
